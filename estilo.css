@@ -1,0 +1,223 @@
+/*+++++++++ General  ++++++*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('img/fondo.png');
+    background-size: 1080px;
+}
+
+
+/*+++++++++++ Inicio +++++++++++*/
+
+#Login-Inicio {
+    width: 400px;
+    height: 400px;
+    background: #71c5bb;
+    padding: 20px;
+    margin: auto;
+    margin-top:150px;
+    border-radius: 42px;
+    font-family: 'Time Romero';
+    color: white;
+    box-shadow: 4px 4px 4px #050402;
+}
+#Login-Inicio h5 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#Login-Inicio hr{
+    margin: 0px 0px 20px 0px;
+    height: 1px;
+    background:#fbce43;
+    border: none;
+}
+#Login-Inicio .controls {
+    width: 100%;
+    background: #fbce43;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #fbce43;
+    font-family: 'Time Romero';
+    font-size: 20px;
+   
+}
+#Login-Inicio ::placeholder {
+    font-size: 20px;
+    text-align: left;
+    color: #83a299;
+}
+#Login-Inicio .check-box {
+    margin: 4px 9px 28px 17px;
+
+}
+#Login-Inicio .olvidar{
+    color: #f9d977;
+    text-decoration: underline;
+    font-size: 22px;
+    margin: 4px 9px 28px 78px;
+} 
+#Login-Inicio a:hover {
+    color: white;
+    text-emphasis: underline;
+}
+#Login-Inicio .botons {
+    width: 100%;
+    background: #fbce43;
+    padding: 10px;
+    color: white;
+    border: none;
+    margin: 6px 0px 10px 0px;
+    font-size: 16px;
+}
+#Login-Inicio .botons:hover {
+    width: 100%;
+    padding: 10px;
+    color: #71c5bb;
+    border: none;
+    margin: 6px 0px 10px 0px;
+    font-size: 16px;
+}
+
+
+
+/*+++++++++ Registro  ++++++*/
+
+#Login-Registro {
+    width: 400px;
+    height: 544px;
+    background: #71c5bb;
+    padding: 20px;
+    margin: auto;
+    margin-top:70px;
+    border-radius: 42px;
+    font-family: 'Time Romero';
+    color: white;
+    box-shadow: 4px 4px 4px #050402;
+}
+#Login-Registro h4 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+hr{
+    margin: 0px 0px 20px 0px;
+    height: 1px;
+    background:#fbce43;
+    border: none;
+}
+#Login-Registro .controls {
+    width: 100%;
+    background: #fbce43;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #fbce43;
+    font-family: 'Time Romero';
+    font-size: 20px;
+}
+#Login-Registro .parrafo{
+    color:#ffffff;
+    font-size: 15px;
+    margin:0px 0px 15px;
+
+}
+#Login-Registro ::placeholder {
+    font-size: 20px;
+    text-align: left;
+    color: #83a299;
+}
+#Login-Registro .check-box {
+    margin: 4px 9px 28px 17px;
+    
+}
+
+#Login-Registro a {
+    color: #f9d977;
+    text-decoration: underline;
+    font-size: 17px;
+   
+}
+#Login-Registro .cuenta-ya{
+    color: #f9d977;
+    text-decoration: underline;
+    font-size: 22px;
+    margin: 4px 9px 28px 92px;
+    border-top-color: ivory;
+}
+#Login-Registro a:hover {
+    color: white;
+    text-emphasis: underline;
+}
+#Login-Registro .botons {
+    width: 100%;
+    background: #fbce43;
+    padding: 10px;
+    color: white;
+    border: none;
+    margin: -5px 0px 10px 0px;
+    font-size: 16px;
+}
+#Login-Registro .botons:hover {
+    width: 100%;
+    padding: 10px;
+    color: #71c5bb;
+    border: none;
+    margin: -5px 0px 10px 0px;
+    font-size: 16px;
+}
+
+
+/*  desabilitado redes */
+
+/*.google{ 
+    display: inline-flex;
+    padding:0px 37px;
+    background: #ec5c4f;
+    margin: 0px 0px 0px 23px;
+    border-radius: 10px;
+}
+.fa-google{
+    color:aliceblue;
+    margin:7px 8px 0px -24px;
+}
+i .fa-google{
+    margin: 20px 50px 20px 0px;
+    font-style: normal;
+    
+    
+} 
+.button__G{
+    font-size:15px; 
+    margin: 5px -5px 5px 0px;
+    font-family: 'Time Romero'; 
+    color:#ffffff; 
+}
+.facebook{  
+    display: inline-flex;
+    padding:0px 20px;
+    background: #0f94f4;
+    margin: 0px 0px 0px 10px;
+    border-radius: 10px;
+}
+.fa-facebook{
+    color:aliceblue;
+    margin:7px 11px 0px -14px;
+
+}
+i .fa-facebook{
+    margin: 20px 50px 20px 0px;
+    font-style: normal;
+} 
+.button__F{
+    font-size:15px; 
+    margin: 5px 6px 5px 0px;
+    font-family: 'Time Romero';  
+    color:#ffffff;
+}*/
+
