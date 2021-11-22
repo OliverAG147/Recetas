@@ -1,0 +1,159 @@
+*{
+   font-family: 'Times New Roman', Times, serif;
+}
+body{
+   padding: 0px;
+   margin: 0px;
+}
+h2{font-family: 'Times New Roman', serif;}
+
+h3{font-family: 'Times New Roman', cursive;}
+
+ul{
+   margin: 0px;
+   padding: 0px;
+   text-align: center;
+}
+
+li{
+   list-style: none;
+   display: inline-block;
+   margin: 0px;
+   padding: 0px;
+   vertical-align: top;
+}
+
+.btn{
+   border-radius: 40px;
+   border: solid 5px;
+   padding: 10px 50px;
+   color:white;
+   text-decoration: none;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+}
+
+.btn-vrd{
+   background-color:#FBCE43;
+   border-color:rgba(16, 148, 36, 0,5);
+   transition: background-color 1s;
+}
+.btn-vrd:hover {
+   background-color:#bcfbf0;
+}
+
+#receta-contenido #recetas-seccion{
+   background-image: url(img/FondoP1.png);
+   background-size: 100%;
+   height: 100vh;
+   padding: 20px;
+}
+#receta-contenido #logo{
+  width: 129px;
+  text-align: center;
+}
+#receta-contenido #logo #back{
+   padding:20px 0px;
+}
+#receta-contenido #logo #back a{
+   color:width;
+   text-decoration: none;
+}
+#receta-contenido #logo #back a:hover{
+  color:white;
+   text-decoration: underline;
+}
+#receta-contenido #recetas-seccion #barra{
+   text-align: center;
+}
+
+#receta-contenido #recetas-seccion #barra ul li{
+   margin: 84px 50px;
+   height: 155px;
+   width: 240px;
+   overflow:hidden;
+   transition:all 1s;
+}
+
+#receta-contenido #recetas-seccion #barra ul li:hover{
+   height:400px;
+   margin-top: -10px;
+}
+#receta-contenido #recetas-seccion #barra ul li a{
+   color:#71C5BB;
+   text-decoration:none;
+   height: 100px;
+}
+#receta-contenido #recetas-seccion #barra ul li:hover > div a h3{
+  opacity: 1;
+  margin-top: -10px;
+  color: #FBCE43;
+}
+
+#receta-contenido #recetas-seccion #barra ul li h2{
+   font-size: 50px;
+}
+#receta-contenido #recetas-seccion #barra ul li h3{
+   font-size: 30px;
+   opacity: 0;
+   transition:all 1s;
+   transition-delay: 0.1s;
+}
+/* Pie De Barra*/
+#footer{
+   background-color: black;
+   color:white;
+   padding:40px;
+}
+#footer ul li{
+   display: inline-block;
+   padding: 0 40px;
+   vertical-align: top;
+}
+#footer ul li a{
+   color:#aaa;
+   display: inline-block;
+   vertical-align: top;
+   transition:color 1s;
+   text-decoration: none;
+}
+#footer ul li a:hover{
+   color:white;
+   text-decoration: none;
+}
+/*footer{
+   max-height: 300px;
+   height: 150px;
+  background-color:#3b4e44;
+ color:white;
+}
+
+ footer ul li a{
+   color:aliceblue;
+   list-style: none;
+   text-decoration: none;
+}
+
+footer ul li {
+   margin: 40px 10px 10px 10px;
+}
+ .Wrap{
+    width: 1174px;
+  margin: 0px auto;
+ }
+ #Derechos{
+  line-height: 45px;
+ }*/
+
+
+
+
+
+
+
+
+
+
+
+
+ 
