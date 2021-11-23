@@ -1,9 +1,11 @@
 *{
    font-family: 'Times New Roman', Times, serif;
+   box-sizing: border-box;
 }
 body{
    padding: 0px;
    margin: 0px;
+   flex-wrap: wrap;
 }
 h2{font-family: 'Times New Roman', serif;}
 
@@ -13,6 +15,7 @@ ul{
    margin: 0px;
    padding: 0px;
    text-align: center;
+   min-width: 300px;
 }
 
 li{
@@ -68,9 +71,9 @@ li{
 }
 
 #receta-contenido #recetas-seccion #barra ul li{
-   margin: 84px 50px;
-   height: 155px;
-   width: 240px;
+   margin: 10px 50px;
+   height: 214px;
+   width: 195px;
    overflow:hidden;
    transition:all 1s;
 }
@@ -99,51 +102,15 @@ li{
    transition:all 1s;
    transition-delay: 0.1s;
 }
-/* Pie De Barra*/
-#footer{
-   background-color: black;
-   color:white;
-   padding:40px;
-}
-#footer ul li{
-   display: inline-block;
-   padding: 0 40px;
-   vertical-align: top;
-}
-#footer ul li a{
-   color:#aaa;
-   display: inline-block;
-   vertical-align: top;
-   transition:color 1s;
-   text-decoration: none;
-}
-#footer ul li a:hover{
-   color:white;
-   text-decoration: none;
-}
-/*footer{
-   max-height: 300px;
-   height: 150px;
-  background-color:#3b4e44;
- color:white;
+/* Pie De Paguina*/
+
+footer{
+   width:100% ;
+   background: #242527;
+   color: white;
 }
 
- footer ul li a{
-   color:aliceblue;
-   list-style: none;
-   text-decoration: none;
-}
 
-footer ul li {
-   margin: 40px 10px 10px 10px;
-}
- .Wrap{
-    width: 1174px;
-  margin: 0px auto;
- }
- #Derechos{
-  line-height: 45px;
- }*/
 
 
 

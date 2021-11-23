@@ -1,13 +1,16 @@
 /*+++++++++ General  ++++++*/
 
 * {
+    font-family: 'Time Romero';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body {
     background-image: url('img/fondo.png');
     background-size: 1080px;
+    flex-wrap: wrap;
 }
 
 
@@ -24,6 +27,8 @@ body {
     font-family: 'Time Romero';
     color: white;
     box-shadow: 4px 4px 4px #050402;
+    min-width: 300px;
+    
 }
 #Login-Inicio h5 {
     font-size: 40px;
@@ -50,7 +55,7 @@ body {
 #Login-Inicio ::placeholder {
     font-size: 20px;
     text-align: left;
-    color: #83a299;
+    color: #ffffff;
 }
 #Login-Inicio .check-box {
     margin: 4px 9px 28px 17px;
@@ -94,7 +99,7 @@ body {
     background: #71c5bb;
     padding: 20px;
     margin: auto;
-    margin-top:70px;
+    margin-top:65px;
     border-radius: 42px;
     font-family: 'Time Romero';
     color: white;
@@ -130,7 +135,7 @@ hr{
 #Login-Registro ::placeholder {
     font-size: 20px;
     text-align: left;
-    color: #83a299;
+    color: #ffffff;
 }
 #Login-Registro .check-box {
     margin: 4px 9px 28px 17px;
@@ -148,7 +153,6 @@ hr{
     text-decoration: underline;
     font-size: 22px;
     margin: 4px 9px 28px 92px;
-    border-top-color: ivory;
 }
 #Login-Registro a:hover {
     color: white;
@@ -221,3 +225,6 @@ i .fa-facebook{
     color:#ffffff;
 }*/
 
+ /* Calar*/
+ 
+ 
