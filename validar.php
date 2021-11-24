@@ -18,7 +18,7 @@ if($filas){
     <?php
     include("index.php");
     ?>
-    <h1 class="bad">Error de autentificación</h1>
+    echo "<script>alert('Error en la confirmación, asegúrese de ingresar los datos correctos')</script>"
     <?php
 }
 mysqli_free_result($resultado);

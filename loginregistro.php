@@ -1,3 +1,48 @@
+<?php
+
+include "bd.php";
+error_reporting(0);
+session_start();
+
+if(isset($_SESSION["usuario"])){
+    header("location: home.php");
+}
+
+if(isset($_POST["btnregistrar"])){
+    $username=$_POST["username"];
+    $email=$_POST["email"];
+    $password=$_POST["password"];
+    $cpassword=$_POST["cpassword"];
+
+
+    if($password==$cpassword){
+        $consul="SELECT * FROM usuario WHERE email_usuario='$email'";
+        $resultado = mysqli_query($conexion, $consul);
+        if(!$resultado->num_rows > 0){
+            $consul="INSERT INTO usuario (name_usuario,email_usuario,password_usuario) 
+            VALUE ('$username', '$email', '$password')";
+            $resultado=mysqli_query($conexion,$consul);
+
+            if($resultado){
+                echo "<script>alert(Usuario registrado con éxito)</script>";
+                $username="";
+                $email="";
+                $_POST["password"]="";
+                $_POST["cpassword"]="";
+            }else{
+                echo "<script>alert('Hay un error')</script>";
+            }
+
+        }else{
+            echo "<script>alert('El correo ya existe')</script>";
+        }
+    }else{
+        echo "<script>alert('Las contraseñas no coinciden')</script>";
+    }
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -11,7 +56,7 @@
 </head>
 
 <body>
-    <form action="registrar.php" method="post">
+    <form action="" method="POST">
     <section id="Login-Registro">
         <h4>Registro</h4>
        <!---- <p class="parrafo">Entra con:</p>
@@ -23,11 +68,12 @@
        </div> ----->
         <hr/>
          <!----<p class="parrafo">o Ingresa tus datos:</p>----->
-        <input class="controls" type="text" name="usuario" id="usuario" placeholder="Ingrese su Nombre de usuario">
-        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-        <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
+        <input class="controls" type="text" name="username" id="uusername" value="<?php echo $username; ?>" required placeholder="Ingrese su nombre de usuario">
+        <input class="controls" type="email" name="email" id="email" value="<?php echo $email; ?>" required placeholder="Ingrese su Correo">
+        <input class="controls" type="password" name="password" id="password" value="<?php echo $_POST['password']; ?>" required placeholder="Contraseña">
+        <input class="controls" type="password" name="cpassword" id="cpassword" value="<?php echo $_POST['cpassword']; ?>" required placeholder="Confirmar contraseña">
         <input class="check-box" type="checkbox" class="deacuerdo" p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-        <input class="botons" type="submit" value="Registrarme">
+        <input class="botons" type="submit" name="btnregistrar" value="Registrarme">
         <p><a class="cuenta-ya" href="index.php">¿Ya Tengo Cuenta?</a></p>
     </section>
     </form>

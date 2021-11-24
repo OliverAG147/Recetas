@@ -13,6 +13,7 @@
     <div id="recetas-seccion">
           
         <section id ="barra">
+            <a href="logout.php">Desconectar</a>
             <ul>
             <li>
                 <a href="historia.html">
