@@ -172,6 +172,14 @@ hr{
     font-size: 16px;
 }
 
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+
 
 /*  desabilitado redes */
 

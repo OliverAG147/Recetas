@@ -121,6 +121,13 @@ li{
    color:white;
    text-decoration: none;
 }
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
 /*footer{
    max-height: 300px;
    height: 150px;

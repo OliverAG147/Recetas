@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <form action="registrar.php" method="post">
     <section id="Login-Registro">
         <h4>Registro</h4>
        <!---- <p class="parrafo">Entra con:</p>
@@ -22,14 +23,14 @@
        </div> ----->
         <hr/>
          <!----<p class="parrafo">o Ingresa tus datos:</p>----->
-        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-        <input class="controls" type="text" name="usuario" id="usuario" placeholder="Ingrese su Usuario">
+        <input class="controls" type="text" name="usuario" id="usuario" placeholder="Ingrese su Nombre de usuario">
         <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-        <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña">
+        <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
         <input class="check-box" type="checkbox" class="deacuerdo" p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-        <input class="botons" type="submit" value="Registrate">
-        <p><a class="cuenta-ya" href="logincuenta.html">¿Ya Tengo Cuenta?</a></p>
+        <input class="botons" type="submit" value="Registrarme">
+        <p><a class="cuenta-ya" href="index.php">¿Ya Tengo Cuenta?</a></p>
     </section>
+    </form>
 </body>
 
 </html>

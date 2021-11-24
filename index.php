@@ -10,15 +10,17 @@
 </head>
 
 <body>
+    <form action="validar.php" method="post">
     <section id="Login-Inicio">
         <h5>Login</h5>
         <hr/>
-        <input class="controls" type="text" name="usuario" placeholder="Usuario">
-        <input class="controls" type="password" name="contraseña" placeholder="Contraseña">
-        <input class="check-box" type="checkbox" p>Guardar Contraseña<a href="#"></a></p>
+        <input class="controls" type="text" name="usuario" placeholder="usuario">
+        <input class="controls" type="password" name="contraseña" placeholder="contraseña">
+        
         <input class="botons" type="submit" name="" value="Ingresar">
-        <p><a class="olvidar" href="#">¿Olvidar Contraseña?</a></p>
+        <p><a class="olvidar" href="loginregistro.php">¿No estas registrado?</a></p>
     </section>
+    </form> 
 </body>
 
 </html>
